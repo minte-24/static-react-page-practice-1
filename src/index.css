@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: rgb(32, 38, 48);
+  color: white;
+}
+
+header{
+  height: 90px;
+  background-color: rgb(33, 34, 42);
+  padding: 30px 25px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+nav > img {
+  width: 50px;
+  margin-right: 10px;
+}
+nav > span {
+  color: #61DAFB;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+main {
+  padding: 60px 30px;
+  background-image: url(assets/image.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+main > h1{
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+.facts-list {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.facts-list > li {
+  padding-block: 10px;
+  line-height: 20px;
+}
+.facts-list > li::marker{
+color: #61DAFB;
+font-size: 1.5rem;
+}
